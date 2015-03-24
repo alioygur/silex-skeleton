@@ -1,0 +1,21 @@
+{
+    "name": "alioygur/silex-skeleton",
+    "description": "a lightweight framework based on symfony/silex",
+    "require": {
+        "silex/silex": "~1.2",
+        "illuminate/config": "~5",
+        "illuminate/filesystem": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali OYGUR",
+            "email": "alioygur@gmail.com"
+        }
+    ]
+}
